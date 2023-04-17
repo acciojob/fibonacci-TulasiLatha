@@ -9,6 +9,7 @@ function fibonacci(num) {
 		n1=n2;
 		n2=n3;
 	}
+	return num;
 }
 
 module.exports = fibonacci;
